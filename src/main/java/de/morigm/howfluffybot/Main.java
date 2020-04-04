@@ -73,7 +73,7 @@ public class Main extends TelegramLongPollingBot
 	@Override
 	public String getBotUsername() 
 	{
-		return Main.config.getProperty("bot-name");
+		return Main.config.getProperty("bot.name");
 	}
 
 	@Override

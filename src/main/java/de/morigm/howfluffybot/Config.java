@@ -48,7 +48,7 @@ public class Config
 	{
 		boolean save = false;
 		if (!prop.containsKey("bot.key")) { prop.setProperty("bot.key", "key"); save = true;}
-		if (!prop.containsKey("bot.key")) { prop.setProperty("bot.name", "name"); save = true;}
+		if (!prop.containsKey("bot.name")) { prop.setProperty("bot.name", "name"); save = true;}
 		if (!prop.containsKey("bot.language")) { prop.setProperty("bot.language", "en"); save = true;}
 		
 		if (save)
